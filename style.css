@@ -1,0 +1,22 @@
+body{
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+#snapshot{
+    background: white;
+    color:black;
+width: 200px;
+height: 50px;
+font-family: 'Pacifico', cursive;
+font-size: 20px;
+border-radius: 60px;
+}
+canvas{
+    animation-name:filter;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes filter{
+from{border: 5px solid white}
+to{border: 5px solid white}
+}
